@@ -1,0 +1,206 @@
+{% extends "base-site.html" %}
+
+{% block title %} Login {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+<div class="row">
+
+      <div class="col-12">
+        <div class="card card-chart">
+          <div class="card-header ">
+            <div class="row">
+              <div class="col-sm-6 text-left">
+                <h5 class="card-category">Enter 22 Attributes Generated from Comipiler Log</h5>
+                <h2 class="card-title">Enter Your Query</h2>
+              </div>
+			  </div>
+			  <br/><br/>
+             
+               <form action = "http://127.0.0.1:5000/predictform" method = "POST" >
+			    <div class="input-group" align="center">
+				
+					<input id="msg" type="text" class="form-control form-control-lg" name="feature" placeholder="Comma Seperated List of values">
+				<p><input type = "submit" value = "submit" align="center" class="btn btn-primary"/></p>
+				</div>
+				
+				</form>
+        </div>
+      </div>
+</div>
+<div class="col-12">
+        <div class="card card-chart">
+          <div class="card-header ">
+            <div class="row">
+              <div class="col-sm-6 text-left">
+                <h5 class="card-category">what is a bug</h5>
+                <h2 class="card-title">Purpose of this Software</h2>
+              </div>
+			  </div>
+			  <br/><br/>
+		
+			<h3>A software bug is a flaw, failure, error or fault in a computer software or system that causes it to return unexpected or incorrect results. A software bug is an error in the programming of software or an app. Bugs cause problems ranging from stability issues to operability problems, and are usually due to human errors during the programming process. They may be the result of a mistake or an error, or they could stem from a fault or defect. Software bugs should be caught during the testing phase of the software development life cycle, but some can go undetected until after deployment.</h3>
+			
+	
+	</div>
+	
+			  
+               
+        </div>
+      </div>
+</div>
+
+  
+    
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+        <div class="card card-tasks">
+          <div class="card-header ">
+            <h6 class="title d-inline">Tasks(5)</h6>
+            <p class="card-category d-inline">today</p>
+            <div class="dropdown">
+              <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown">
+                <i class="tim-icons icon-settings-gear-63"></i>
+              </button>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#pablo">Mark As Solved</a>
+                <a class="dropdown-item" href="#pablo">Draft</a>
+                <a class="dropdown-item" href="#pablo">Remove</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-body ">
+            <div class="table-full-width table-responsive">
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox" value="">
+                          <span class="form-check-sign">
+                            <span class="check"></span>
+                          </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td>
+                      <p class="title">Incorrect Output</p>
+                      <p class="text-muted">API Call, 8:47 AM</p>
+                    </td>
+                    <td class="td-actions text-right">
+                      <button type="button" rel="tooltip" title="" class="btn btn-link" data-original-title="Edit Task">
+                        <i class="tim-icons icon-pencil"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox" value="" checked="">
+                          <span class="form-check-sign">
+                            <span class="check"></span>
+                          </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td>
+                      <p class="title">Incorrect Output</p>
+                      <p class="text-muted">Search Query, 10:27 AM</p>
+                    </td>
+                    <td class="td-actions text-right">
+                      <button type="button" rel="tooltip" title="" class="btn btn-link" data-original-title="Edit Task">
+                        <i class="tim-icons icon-pencil"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox" value="">
+                          <span class="form-check-sign">
+                            <span class="check"></span>
+                          </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td>
+                      <p class="title">Internal Error</p>
+                      <p class="text-muted">API Call, 07:20 AM </p>
+                    </td>
+                    <td class="td-actions text-right">
+                      <button type="button" rel="tooltip" title="" class="btn btn-link" data-original-title="Edit Task">
+                        <i class="tim-icons icon-pencil"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox" value="">
+                          <span class="form-check-sign">
+                            <span class="check"></span>
+                          </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td>
+                      <p class="title">Misclassification</p>
+                      <p class="text-muted">API Call, 05:19 AM</p>
+                    </td>
+                    <td class="td-actions text-right">
+                      <button type="button" rel="tooltip" title="" class="btn btn-link" data-original-title="Edit Task">
+                        <i class="tim-icons icon-pencil"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox" value="">
+                          <span class="form-check-sign">
+                            <span class="check"></span>
+                          </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td>
+                      <p class="title">Misclassification</p>
+                      <p class="text-muted">Search Query, 00:47 AM </p>
+                    </td>
+                    <td class="td-actions text-right">
+                      <button type="button" rel="tooltip" title="" class="btn btn-link" data-original-title="Edit Task">
+                        <i class="tim-icons icon-pencil"></i>
+                      </button>
+                    </td>
+                  </tr>
+                
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+  <script>
+    $(document).ready(function() {
+      // Javascript method's body can be found in assets/js/demos.js
+      demo.initDashboardPageCharts();
+
+    });
+  </script>
+
+{% endblock javascripts %}

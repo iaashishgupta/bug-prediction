@@ -1,0 +1,31 @@
+{% extends "base-site.html" %}
+
+{% block title %} UI Icons {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <h1 class="title">KC2 Dataset</h1>
+        <p class="category">From Nasa Software Engineering Repository <a href="http://promise.site.uottawa.ca/SERepository/datasets/kc2.arff">SBP</a></p>
+      </div>
+     <h3>In this project we collected our data set from Promise software engineering repository. In order to find the effectiveness of our approach, we choose a standard software bug dataset of NASA Promise Repository. From which KC2, PC3, JM1, CM1 datasets are used. This repository is publicly available at http://promise.site.uottawa.ca. Each dataset contain data of 22 excluding PC3 which contains 38 attributes respectively. </h3>
+	 <div align="center">
+	 <h1> Attribute Information</h1>
+	<a href="https://ibb.co/R3x0Lw9"><img src="https://i.ibb.co/qNtsbQd/dataset.png" alt="dataset" align="center" border="0"></a>
+	<h1> Results</h1>
+       <a href="https://ibb.co/GHmQbPW"><img src="https://i.ibb.co/1zcGw2r/kc2.png" alt="kc2" align="center" border="0"></a><br /><br />
+        </div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
